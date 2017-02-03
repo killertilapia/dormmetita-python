@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "python.pythonPath": "~/Envs/dormmetita/bin/python3",
+    "python.autoComplete.extraPaths": [
+        "~/Envs/dormmetita/lib/python3.5/site-packages"
+    ],
+    "python.devOptions": [
+        "DEBUG"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+
+    // Extension and editor preferences
+
+    "files.insertFinalNewline": true,
+    "editor.rulers": [120],
+    "editor.roundedSelection": false,
+    "explorer.openEditors.visible": 0,
+    "editor.trimAutoWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vscode": false,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true
+    }
+}
