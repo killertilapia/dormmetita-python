@@ -8,3 +8,6 @@ def index_action():
     return 'Hello Eric!'
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
+
